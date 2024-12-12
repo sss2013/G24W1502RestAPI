@@ -13,6 +13,7 @@
                 DockPanel.Dock="Left"
                 AutoGenerateColumns="False"
                 Width="Auto"
+                ItemsSource="{Binding Games}"
                 SelectionMode="Single"
                 SelectedItem="{ Binding SelectedGame }">
                 <DataGrid.Columns>
